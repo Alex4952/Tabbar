@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AlertViewController2 : UIViewController {
+class AlertViewController2 : UIViewController, UIAlertViewDelegate {
 	
 	
 	@IBAction func alert(sender: AnyObject) {
@@ -17,12 +17,29 @@ class AlertViewController2 : UIViewController {
 		let alertView = UIAlertView(
 			title: "메세지입니다",
 			message: "경고합니다",
-			delegate: nil,
+			delegate: self,
 			cancelButtonTitle: "취소",
 			otherButtonTitles: "확인", "보류", "경고")
 		
 		alertView.show()
 
+	}
+	
+	func alertView(alertView: UIAlertView, clickedButtonAtIndex buttonIndex: Int) {
+		NSLog("buttonIndex=\(buttonIndex)")
+		
+		switch buttonIndex {
+		case 0:
+			NSLog("취소버튼");
+		case 1:
+			NSLog("확인버튼");
+		case 2:
+			NSLog("보류버튼");
+		case 3:
+			NSLog("경고버튼");
+		default:
+			NSLog("I don't know what is clicked")
+		}
 	}
 	
 }

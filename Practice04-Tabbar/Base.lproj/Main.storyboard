@@ -106,8 +106,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hh1-79-DG0">
-                                <rect key="frame" x="150" y="124" width="75" height="30"/>
-                                <state key="normal" title="Show Alert"/>
+                                <rect key="frame" x="171" y="124" width="33" height="30"/>
+                                <state key="normal" title="Alert"/>
                                 <connections>
                                     <action selector="alert:" destination="SN2-GO-0J2" eventType="touchUpInside" id="iTx-2U-pDa"/>
                                 </connections>
