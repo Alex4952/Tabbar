@@ -12,6 +12,8 @@
 		044434541BD2279E0015A4D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044434521BD2279E0015A4D1 /* Main.storyboard */; };
 		044434561BD2279E0015A4D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044434551BD2279E0015A4D1 /* Assets.xcassets */; };
 		044434591BD2279E0015A4D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044434571BD2279E0015A4D1 /* LaunchScreen.storyboard */; };
+		044434611BD22EC70015A4D1 /* Oil Transportation-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 044434601BD22EC70015A4D1 /* Oil Transportation-32.png */; settings = {ASSET_TAGS = (); }; };
+		044434651BD230400015A4D1 /* GlobeAsiaFilled-64@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 044434641BD230400015A4D1 /* GlobeAsiaFilled-64@2x.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		044434551BD2279E0015A4D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		044434581BD2279E0015A4D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0444345A1BD2279E0015A4D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044434601BD22EC70015A4D1 /* Oil Transportation-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Oil Transportation-32.png"; sourceTree = "<group>"; };
+		044434641BD230400015A4D1 /* GlobeAsiaFilled-64@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GlobeAsiaFilled-64@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		0444344D1BD2279E0015A4D1 /* Practice04-Tabbar */ = {
 			isa = PBXGroup;
 			children = (
+				044434641BD230400015A4D1 /* GlobeAsiaFilled-64@2x.png */,
+				044434601BD22EC70015A4D1 /* Oil Transportation-32.png */,
 				0444344E1BD2279E0015A4D1 /* AppDelegate.swift */,
 				044434501BD2279E0015A4D1 /* ViewController.swift */,
 				044434521BD2279E0015A4D1 /* Main.storyboard */,
@@ -122,7 +128,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				044434591BD2279E0015A4D1 /* LaunchScreen.storyboard in Resources */,
+				044434651BD230400015A4D1 /* GlobeAsiaFilled-64@2x.png in Resources */,
 				044434561BD2279E0015A4D1 /* Assets.xcassets in Resources */,
+				044434611BD22EC70015A4D1 /* Oil Transportation-32.png in Resources */,
 				044434541BD2279E0015A4D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
