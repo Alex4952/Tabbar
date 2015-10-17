@@ -14,6 +14,8 @@
 		044434591BD2279E0015A4D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044434571BD2279E0015A4D1 /* LaunchScreen.storyboard */; };
 		044434611BD22EC70015A4D1 /* Oil Transportation-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 044434601BD22EC70015A4D1 /* Oil Transportation-32.png */; settings = {ASSET_TAGS = (); }; };
 		044434651BD230400015A4D1 /* GlobeAsiaFilled-64@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 044434641BD230400015A4D1 /* GlobeAsiaFilled-64@2x.png */; settings = {ASSET_TAGS = (); }; };
+		044434671BD234540015A4D1 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044434661BD234540015A4D1 /* AlertViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		044434691BD238490015A4D1 /* AlertViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044434681BD238490015A4D1 /* AlertViewController2.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		0444345A1BD2279E0015A4D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		044434601BD22EC70015A4D1 /* Oil Transportation-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Oil Transportation-32.png"; sourceTree = "<group>"; };
 		044434641BD230400015A4D1 /* GlobeAsiaFilled-64@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GlobeAsiaFilled-64@2x.png"; sourceTree = "<group>"; };
+		044434661BD234540015A4D1 /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		044434681BD238490015A4D1 /* AlertViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				044434551BD2279E0015A4D1 /* Assets.xcassets */,
 				044434571BD2279E0015A4D1 /* LaunchScreen.storyboard */,
 				0444345A1BD2279E0015A4D1 /* Info.plist */,
+				044434661BD234540015A4D1 /* AlertViewController.swift */,
+				044434681BD238490015A4D1 /* AlertViewController2.swift */,
 			);
 			path = "Practice04-Tabbar";
 			sourceTree = "<group>";
@@ -143,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				044434511BD2279E0015A4D1 /* ViewController.swift in Sources */,
+				044434671BD234540015A4D1 /* AlertViewController.swift in Sources */,
+				044434691BD238490015A4D1 /* AlertViewController2.swift in Sources */,
 				0444344F1BD2279E0015A4D1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +263,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Practice04-Tabbar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "fn.zoo.Practice04-Tabbar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -266,6 +275,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Practice04-Tabbar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "fn.zoo.Practice04-Tabbar";
 				PRODUCT_NAME = "$(TARGET_NAME)";

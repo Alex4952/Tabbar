@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ij4-8D-NpD">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
@@ -23,6 +24,34 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UPl-X5-2QH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-611.5" y="955.5"/>
+        </scene>
+        <!--Alert View Controller-->
+        <scene sceneID="5cG-hY-BJP">
+            <objects>
+                <viewController id="JDa-lc-RKC" customClass="AlertViewController" customModule="Practice04_Tabbar" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LEW-RE-cKR"/>
+                        <viewControllerLayoutGuide type="bottom" id="o1V-LD-mKi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="058-k6-mFP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8zo-hu-CTJ">
+                                <rect key="frame" x="164" y="105" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="alert:" destination="JDa-lc-RKC" eventType="touchUpInside" id="d1y-tY-mL8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qXp-iZ-cdV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-556.5" y="1718.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Xip-FN-Eiu">
@@ -67,7 +96,7 @@
         <!--Globe-->
         <scene sceneID="baN-W9-N4t">
             <objects>
-                <viewController id="SN2-GO-0J2" sceneMemberID="viewController">
+                <viewController id="SN2-GO-0J2" customClass="AlertViewController2" customModule="Practice04_Tabbar" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ekb-zF-Wpw"/>
                         <viewControllerLayoutGuide type="bottom" id="xcc-j2-H5d"/>
@@ -75,6 +104,15 @@
                     <view key="view" contentMode="scaleToFill" id="RhG-lK-IK7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hh1-79-DG0">
+                                <rect key="frame" x="150" y="124" width="75" height="30"/>
+                                <state key="normal" title="Show Alert"/>
+                                <connections>
+                                    <action selector="alert:" destination="SN2-GO-0J2" eventType="touchUpInside" id="iTx-2U-pDa"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Globe" image="GlobeAsiaFilled-64.png" badgeValue="N" id="lkb-eD-US7"/>
